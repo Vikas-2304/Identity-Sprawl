@@ -44,7 +44,7 @@ for i in range(1000, 1000 + TOTAL_USERS):
         "manager": manager,
         "department": dept,
         "employment_status": "active",
-        "termination_date": np.nan,  # NULL for active
+        "termination_date": pd.NaT,  # NULL for active
         "last_login": last_login.isoformat(),
         "is_oncall": is_oncall
     })
@@ -62,7 +62,8 @@ token_abuse_ids = all_ids[75:84]
 # Apply Orphan states (Active in AWS/Okta, Terminated in HR)
 users_df.loc[users_df["employee_id"].isin(orphan_ids), "employment_status"] = "terminated"
 term_dates = [datetime.now() - timedelta(days=random.randint(10, 90)) for _ in orphan_ids]
-users_df.loc[users_df["employee_id"].isin(orphan_ids), "termination_date"] = [d.strftime('%Y-%m-%d') for d in term_dates]
+mask = users_df["employee_id"].isin(orphan_ids)
+users_df.loc[mask, "termination_date"] = pd.Series(pd.to_datetime(term_dates)).dt.floor("s").values
 
 # Mark Overpriv as Contractors
 users_df.loc[users_df["employee_id"].isin(overpriv_ids), "employment_status"] = "contractor"
@@ -71,8 +72,10 @@ users_df.loc[users_df["employee_id"].isin(overpriv_ids), "employment_status"] = 
 
 offboarding_records = []
 for emp in orphan_ids:
-    term_date_str = users_df.loc[users_df["employee_id"] == emp, "termination_date"].values[0]
-    term_date = datetime.strptime(term_date_str, '%Y-%m-%d')
+    term_date = users_df.loc[users_df["employee_id"] == emp, "termination_date"].values[0]
+
+    if pd.isna(term_date):
+        continue
     
     ad_delay = timedelta(days=random.randint(0, 3))
     ad_dis = (term_date + ad_delay).strftime('%Y-%m-%d')
@@ -83,7 +86,7 @@ for emp in orphan_ids:
     
     offboarding_records.append({
         "employee_id": emp,
-        "hr_termination_date": term_date_str,
+        "hr_termination_date": pd.to_datetime(term_date).strftime("%Y-%m-%d"),
         "ad_disabled_date": ad_dis,
         "aws_disabled_date": aws_dis,
         "okta_disabled_date": okta_dis
@@ -128,7 +131,7 @@ for emp in dormant_ids:
 
 # Ensure On-Call users have AWS Admin
 for emp in all_ids:
-    if users_df.loc[users_df["employee_id"] == emp, "is_oncall"].values[0]:
+    if users_df.loc[users_df["employee_id"] == emp, "is_oncall"].iloc[0]:
         add_mapping(emp, "Employee", "AWS_Role_AdminAccess", "Role", "AWS")
 
 mappings_df = pd.DataFrame(mappings)
