@@ -185,9 +185,9 @@ events_df = pd.DataFrame(events)
 
 # SAVE FILES
 
-users_df.to_csv("identities.csv", index=False)
-offboarding_df.to_csv("offboarding_records.csv", index=False)
-mappings_df.to_csv("group_mappings.csv", index=False)
-events_df.to_csv("audit_logs.csv", index=False)
+users_df.to_csv("./data/identities.csv", index=False)
+offboarding_df.to_csv("./data/offboarding_records.csv", index=False)
+mappings_df.to_csv("./data/group_mappings.csv", index=False)
+events_df.to_csv("./data/audit_logs.csv", index=False)
 
 print("Datasets generated.")

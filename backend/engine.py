@@ -7,12 +7,12 @@ class IdentityRiskEngine:
     def __init__(self):
         self.graph = nx.DiGraph()
         
-        # Load data
+        # Load strictly schema-compliant data
         self.users_df = pd.read_csv("identities.csv")
         self.offboarding_df = pd.read_csv("offboarding_records.csv")
         self.events_df = pd.read_csv("audit_logs.csv")
         
-        # preprocess events
+        # Pre-process events
         self.events_df['timestamp'] = pd.to_datetime(self.events_df['timestamp'], errors='coerce')
         self.user_last_event = self.events_df.groupby('employee_id')['timestamp'].max().to_dict()
         
@@ -40,7 +40,7 @@ class IdentityRiskEngine:
     def calculate_risk_scores(self):
         results = []
         
-        # Precalculate behavioral anomalies from audit logs
+        # Pre-calculate behavioral anomalies from audit logs
         token_abuse_events = self.events_df[self.events_df['event'] == 'Token_Used']['employee_id'].unique()
         escalation_events = self.events_df[self.events_df['event'].isin(['Privilege_Escalation', 'Assumed_Admin_Role'])]['employee_id'].unique()
 
@@ -48,7 +48,7 @@ class IdentityRiskEngine:
             emp_id = user["employee_id"]
             privs = self.get_effective_privileges(emp_id)
             
-            # Initialize modular risks
+            # Initialize Modular Risks
             orphan_risk = 0
             admin_risk = 0
             dormant_risk = 0
@@ -59,13 +59,13 @@ class IdentityRiskEngine:
             risk_factors = []
             is_oncall = bool(user["is_oncall"])
 
-            # --- Time based logic ---
+            # --- TIME-BASED LOGIC ---
             last_event_date = self.user_last_event.get(emp_id)
             days_inactive = 999
             if pd.notna(last_event_date):
                 days_inactive = (datetime.now() - last_event_date).days
 
-            # --- 1. orphan risk ---
+            # --- 1. ORPHAN RISK ---
             offboard_record = self.offboarding_df[self.offboarding_df['employee_id'] == emp_id]
             if not offboard_record.empty:
                 rec = offboard_record.iloc[0]

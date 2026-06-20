@@ -1,0 +1,301 @@
+employee_id,display_name,ad_username,ad_status,aws_username,aws_status,okta_username,okta_status,manager,department,employment_status,termination_date,last_login,is_oncall
+E1000,Aryan Maharaj,aryan.maharaj@corp.in,active,aws-user-1000,active,aryan@company.in,active,Udant Dewan,IT,active,,2026-04-10T10:10:10.292705,True
+E1001,Gagan Sami,gagan.sami@corp.in,active,aws-user-1001,active,gagan@company.in,active,Ayushman Chander,Finance,terminated,2026-06-07 17:10:10,2026-05-23T20:10:10.292764,True
+E1002,Viraj Tiwari,viraj.tiwari@corp.in,active,aws-user-1002,active,viraj@company.in,active,Rushil Saini,IT,terminated,2026-05-30 17:10:10,2026-05-27T23:10:10.292806,False
+E1003,Saumya Mall,saumya.mall@corp.in,active,aws-user-1003,active,saumya@company.in,active,Nathaniel Sami,Security,active,,2026-05-27T11:10:10.292847,True
+E1004,Arunima Dugal,arunima.dugal@corp.in,active,aws-user-1004,active,arunima@company.in,active,Gayathri Chaudry,Finance,active,,2026-06-13T00:10:10.292895,False
+E1005,Lajita Chatterjee,lajita.chatterjee@corp.in,active,aws-user-1005,active,lajita@company.in,active,Hemangini Lalla,Finance,active,,2025-12-22T00:10:10.292929,False
+E1006,Tripti Yadav,tripti.yadav@corp.in,active,aws-user-1006,active,tripti@company.in,active,Kritika Brar,Security,active,,2026-01-20T09:10:10.292961,False
+E1007,Janaki Handa,janaki.handa@corp.in,active,aws-user-1007,active,janaki@company.in,active,Chakradev Kari,Engineering,active,,2026-05-09T19:10:10.292993,False
+E1008,Fariq Kaul,fariq.kaul@corp.in,active,aws-user-1008,active,fariq@company.in,active,Lajita Mall,Security,active,,2026-05-11T11:10:10.293026,False
+E1009,Janya Gaba,janya.gaba@corp.in,active,aws-user-1009,active,janya@company.in,active,Isha Kadakia,Data,active,,2026-03-14T14:10:10.293062,True
+E1010,Ekbal Garg,ekbal.garg@corp.in,active,aws-user-1010,active,ekbal@company.in,active,Nihal Shere,Data,active,,2026-01-16T09:10:10.293094,False
+E1011,Anamika Kanda,anamika.kanda@corp.in,active,aws-user-1011,active,anamika@company.in,active,Daksh Karnik,Engineering,active,,2026-02-02T14:10:10.293126,False
+E1012,Diya Rattan,diya.rattan@corp.in,active,aws-user-1012,active,diya@company.in,active,Dominic Kakar,Security,active,,2026-04-04T21:10:10.293158,True
+E1013,Simon Tata,simon.tata@corp.in,active,aws-user-1013,active,simon@company.in,active,Tara Dhar,HR,active,,2026-03-18T23:10:10.293195,False
+E1014,Liam Koshy,liam.koshy@corp.in,active,aws-user-1014,active,liam@company.in,active,Priya Rastogi,Finance,active,,2026-06-07T20:10:10.293244,False
+E1015,Theodore Devi,theodore.devi@corp.in,active,aws-user-1015,active,theodore@company.in,active,Gavin Batta,Finance,active,,2026-05-30T10:10:10.293292,False
+E1016,Michael Dutta,michael.dutta@corp.in,active,aws-user-1016,active,michael@company.in,active,Devansh Rajan,Engineering,active,,2026-02-22T21:10:10.293339,False
+E1017,Upadhriti Wadhwa,upadhriti.wadhwa@corp.in,active,aws-user-1017,active,upadhriti@company.in,active,Advay Contractor,Data,active,,2026-03-21T11:10:10.293388,False
+E1018,Harini Choudhury,harini.choudhury@corp.in,active,aws-user-1018,active,harini@company.in,active,Radhika Dugar,IT,active,,2025-12-26T21:10:10.293428,False
+E1019,Aarush Lall,aarush.lall@corp.in,active,aws-user-1019,active,aarush@company.in,active,Yashica Cherian,Engineering,active,,2026-05-07T00:10:10.293466,False
+E1020,Yashica Issac,yashica.issac@corp.in,active,aws-user-1020,active,yashica@company.in,active,Kashvi Edwin,IT,active,,2026-02-21T05:10:10.293499,False
+E1021,Ekiya Suresh,ekiya.suresh@corp.in,active,aws-user-1021,active,ekiya@company.in,active,Isaac Patil,Data,contractor,,2026-01-06T19:10:10.293530,False
+E1022,Wriddhish Bhardwaj,wriddhish.bhardwaj@corp.in,active,aws-user-1022,active,wriddhish@company.in,active,Farhan Chada,HR,contractor,,2026-03-28T16:10:10.293562,False
+E1023,Ekapad Walia,ekapad.walia@corp.in,active,aws-user-1023,active,ekapad@company.in,active,Kabir Soman,Finance,active,,2026-03-31T05:10:10.293593,False
+E1024,Alka Wable,alka.wable@corp.in,active,aws-user-1024,active,alka@company.in,active,Siddharth Zacharia,Data,active,,2026-01-24T19:10:10.293624,True
+E1025,Devika Rastogi,devika.rastogi@corp.in,active,aws-user-1025,active,devika@company.in,active,Raksha Varughese,Data,active,,2026-02-12T05:10:10.293659,False
+E1026,Jai Kota,jai.kota@corp.in,active,aws-user-1026,active,jai@company.in,active,Devansh Nigam,IT,contractor,,2026-04-13T13:10:10.293692,False
+E1027,Victor Kannan,victor.kannan@corp.in,active,aws-user-1027,active,victor@company.in,active,Ekavir Bhargava,Finance,active,,2026-02-02T09:10:10.293723,False
+E1028,Ekansh Balay,ekansh.balay@corp.in,active,aws-user-1028,active,ekansh@company.in,active,Ekavir Varkey,IT,active,,2026-01-21T05:10:10.293754,False
+E1029,Arya Sunder,arya.sunder@corp.in,active,aws-user-1029,active,arya@company.in,active,Kevin Solanki,Data,active,,2026-05-15T01:10:10.293786,False
+E1030,Urvashi Ray,urvashi.ray@corp.in,active,aws-user-1030,active,urvashi@company.in,active,Girindra Chatterjee,Security,contractor,,2026-06-07T14:10:10.293817,True
+E1031,Irya Sampath,irya.sampath@corp.in,active,aws-user-1031,active,irya@company.in,active,Unni Bhagat,Finance,active,,2025-12-27T04:10:10.293848,False
+E1032,Darsh Rau,darsh.rau@corp.in,active,aws-user-1032,active,darsh@company.in,active,Ikbal Kothari,HR,active,,2026-03-13T22:10:10.293879,True
+E1033,Ranveer Yadav,ranveer.yadav@corp.in,active,aws-user-1033,active,ranveer@company.in,active,Logan Sami,Security,active,,2026-01-29T17:10:10.293911,False
+E1034,Arya Shere,arya.shere@corp.in,active,aws-user-1034,active,arya@company.in,active,Faqid Savant,IT,active,,2025-12-27T00:10:10.293942,False
+E1035,Chandresh Zachariah,chandresh.zachariah@corp.in,active,aws-user-1035,active,chandresh@company.in,active,Girik Khalsa,Data,active,,2026-03-24T14:10:10.293973,False
+E1036,Niharika Sunder,niharika.sunder@corp.in,active,aws-user-1036,active,niharika@company.in,active,Tanay Rattan,Data,contractor,,2026-02-23T17:10:10.294004,False
+E1037,Nitesh Raghavan,nitesh.raghavan@corp.in,active,aws-user-1037,active,nitesh@company.in,active,Madhavi Lanka,IT,active,,2026-04-13T01:10:10.294035,False
+E1038,Bhavika Sampath,bhavika.sampath@corp.in,active,aws-user-1038,active,bhavika@company.in,active,Mohammed Gupta,Finance,active,,2026-05-22T21:10:10.294066,False
+E1039,Teerth Bhardwaj,teerth.bhardwaj@corp.in,active,aws-user-1039,active,teerth@company.in,active,Dipta Bhandari,Data,active,,2026-02-09T22:10:10.294099,False
+E1040,Vansha Thakkar,vansha.thakkar@corp.in,active,aws-user-1040,active,vansha@company.in,active,Dakshesh Trivedi,Finance,active,,2026-05-09T00:10:10.294129,False
+E1041,Quincy Biswas,quincy.biswas@corp.in,active,aws-user-1041,active,quincy@company.in,active,Wahab Raval,HR,active,,2026-01-17T07:10:10.294162,False
+E1042,Yatin Baral,yatin.baral@corp.in,active,aws-user-1042,active,yatin@company.in,active,Oni Virk,Security,contractor,,2026-03-19T08:10:10.294193,True
+E1043,Advika Jayaraman,advika.jayaraman@corp.in,active,aws-user-1043,active,advika@company.in,active,William Lanka,Finance,active,,2026-01-25T15:10:10.294239,True
+E1044,Karan Mital,karan.mital@corp.in,active,aws-user-1044,active,karan@company.in,active,Diya Bora,Engineering,active,,2026-06-02T00:10:10.294286,False
+E1045,Tara Chaudhry,tara.chaudhry@corp.in,active,aws-user-1045,active,tara@company.in,active,Tanay Toor,Finance,contractor,,2026-02-18T00:10:10.294332,True
+E1046,Kevin Palla,kevin.palla@corp.in,active,aws-user-1046,active,kevin@company.in,active,Yash Pingle,Finance,active,,2026-01-15T04:10:10.294378,False
+E1047,Nakul Sarma,nakul.sarma@corp.in,active,aws-user-1047,active,nakul@company.in,active,Abhiram Mistry,Finance,active,,2025-12-25T11:10:10.294425,False
+E1048,Krish Lalla,krish.lalla@corp.in,active,aws-user-1048,active,krish@company.in,active,Hredhaan Dugal,IT,active,,2025-12-29T21:10:10.294462,False
+E1049,Baghyawati Kade,baghyawati.kade@corp.in,active,aws-user-1049,active,baghyawati@company.in,active,Samar Lalla,Data,active,,2026-02-07T03:10:10.294500,False
+E1050,Zayan Behl,zayan.behl@corp.in,active,aws-user-1050,active,zayan@company.in,active,Pallavi Malhotra,Engineering,terminated,2026-04-04 17:10:10,2026-06-03T07:10:10.294531,False
+E1051,Aarush Nath,aarush.nath@corp.in,active,aws-user-1051,active,aarush@company.in,active,Adweta Edwin,Engineering,active,,2026-04-21T23:10:10.294561,False
+E1052,Prisha Andra,prisha.andra@corp.in,active,aws-user-1052,active,prisha@company.in,active,Faqid Dixit,Finance,active,,2026-01-09T16:10:10.294595,True
+E1053,Kala Divan,kala.divan@corp.in,active,aws-user-1053,active,kala@company.in,active,Joshua Barman,Finance,active,,2026-06-11T07:10:10.294625,True
+E1054,Janya Baral,janya.baral@corp.in,active,aws-user-1054,active,janya@company.in,active,Shivansh Krish,Engineering,active,,2026-04-08T20:10:10.294657,False
+E1055,Irya Ray,irya.ray@corp.in,active,aws-user-1055,active,irya@company.in,active,Warjas Gaba,Security,active,,2026-05-16T18:10:10.294687,False
+E1056,Nitara Bakshi,nitara.bakshi@corp.in,active,aws-user-1056,active,nitara@company.in,active,Gaurangi Sabharwal,HR,active,,2026-04-18T02:10:10.294718,False
+E1057,Amara Dutta,amara.dutta@corp.in,active,aws-user-1057,active,amara@company.in,active,Lavanya Barad,Security,active,,2026-05-25T20:10:10.294753,False
+E1058,Tristan Iyengar,tristan.iyengar@corp.in,active,aws-user-1058,active,tristan@company.in,active,Inaya Mody,Security,active,,2026-03-06T03:10:10.294785,False
+E1059,Udant Bajwa,udant.bajwa@corp.in,active,aws-user-1059,active,udant@company.in,active,Mohini Narasimhan,IT,active,,2026-01-02T21:10:10.294819,True
+E1060,Ekaraj Mallick,ekaraj.mallick@corp.in,active,aws-user-1060,active,ekaraj@company.in,active,Yashodhara Ratta,Engineering,active,,2026-03-25T14:10:10.294852,True
+E1061,Ayaan D’Alia,ayaan.d’alia@corp.in,active,aws-user-1061,active,ayaan@company.in,active,Pranav Lanka,Finance,active,,2026-02-02T03:10:10.294885,False
+E1062,Ikbal Saraf,ikbal.saraf@corp.in,active,aws-user-1062,active,ikbal@company.in,active,Dipta Sarin,Finance,active,,2026-04-09T03:10:10.295568,False
+E1063,Lekha Gupta,lekha.gupta@corp.in,active,aws-user-1063,active,lekha@company.in,active,Chaitanya Sarin,Finance,active,,2026-05-31T03:10:10.295636,False
+E1064,Zinal Yohannan,zinal.yohannan@corp.in,active,aws-user-1064,active,zinal@company.in,active,Januja Sankar,HR,active,,2026-01-04T00:10:10.295700,True
+E1065,Ganga Murthy,ganga.murthy@corp.in,active,aws-user-1065,active,ganga@company.in,active,Charita Tripathi,Engineering,terminated,2026-05-14 17:10:10,2026-04-20T12:10:10.295763,False
+E1066,Nilima Narain,nilima.narain@corp.in,active,aws-user-1066,active,nilima@company.in,active,Chakrika Datta,Security,terminated,2026-04-23 17:10:10,2026-04-26T05:10:10.295818,False
+E1067,Osha Raghavan,osha.raghavan@corp.in,active,aws-user-1067,active,osha@company.in,active,Charvi Ravi,Engineering,active,,2026-06-19T05:10:10.295868,False
+E1068,Daksha Mangat,daksha.mangat@corp.in,active,aws-user-1068,active,daksha@company.in,active,Qushi Nagy,Data,contractor,,2026-02-23T08:10:10.295917,False
+E1069,Riya Sathe,riya.sathe@corp.in,active,aws-user-1069,active,riya@company.in,active,Yasti Solanki,Security,contractor,,2026-01-27T20:10:10.295967,False
+E1070,Frado Mander,frado.mander@corp.in,active,aws-user-1070,active,frado@company.in,active,Girik Keer,IT,active,,2026-05-02T08:10:10.296017,False
+E1071,Umang Issac,umang.issac@corp.in,active,aws-user-1071,active,umang@company.in,active,Aryan Batra,Finance,active,,2026-01-21T18:10:10.296066,False
+E1072,Vaishnavi Bora,vaishnavi.bora@corp.in,active,aws-user-1072,active,vaishnavi@company.in,active,Oeshi Hayer,HR,active,,2026-03-31T16:10:10.296115,True
+E1073,Warda Ratta,warda.ratta@corp.in,active,aws-user-1073,active,warda@company.in,active,Manbir Ahluwalia,Engineering,contractor,,2026-02-11T01:10:10.296163,False
+E1074,Pavani Kanda,pavani.kanda@corp.in,active,aws-user-1074,active,pavani@company.in,active,Zarna Shetty,Finance,active,,2026-02-09T15:10:10.296215,True
+E1075,Zaid Dara,zaid.dara@corp.in,active,aws-user-1075,active,zaid@company.in,active,Kiaan Shetty,Finance,active,,2026-06-01T20:10:10.296262,True
+E1076,Saanvi Thaman,saanvi.thaman@corp.in,active,aws-user-1076,active,saanvi@company.in,active,Sanaya Dutt,Finance,active,,2026-01-25T10:10:10.296311,False
+E1077,Shivani Lad,shivani.lad@corp.in,active,aws-user-1077,active,shivani@company.in,active,Aradhana Verma,HR,active,,2026-01-12T15:10:10.296360,False
+E1078,William Maharaj,william.maharaj@corp.in,active,aws-user-1078,active,william@company.in,active,Faras Mangal,Security,contractor,,2026-01-26T01:10:10.296407,False
+E1079,Anita Nayak,anita.nayak@corp.in,active,aws-user-1079,active,anita@company.in,active,Faris Devi,Data,active,,2026-04-27T20:10:10.296456,False
+E1080,Vihaan Rajagopal,vihaan.rajagopal@corp.in,active,aws-user-1080,active,vihaan@company.in,active,Tanish Bhatt,IT,terminated,2026-04-18 17:10:10,2026-04-13T05:10:10.296504,False
+E1081,Nikita Narayanan,nikita.narayanan@corp.in,active,aws-user-1081,active,nikita@company.in,active,Ojasvi Bhatia,Finance,active,,2026-04-04T03:10:10.296550,False
+E1082,Osha Ramachandran,osha.ramachandran@corp.in,active,aws-user-1082,active,osha@company.in,active,Lajita Sood,Data,active,,2026-06-01T17:10:10.296598,False
+E1083,Indira Misra,indira.misra@corp.in,active,aws-user-1083,active,indira@company.in,active,Oni Yohannan,Security,active,,2026-01-26T14:10:10.296648,False
+E1084,Vinaya Kanda,vinaya.kanda@corp.in,active,aws-user-1084,active,vinaya@company.in,active,Rajata Sunder,Engineering,active,,2026-02-10T09:10:10.296695,False
+E1085,Lopa Nayar,lopa.nayar@corp.in,active,aws-user-1085,active,lopa@company.in,active,Noah Sibal,Finance,active,,2026-06-02T10:10:10.296741,False
+E1086,Avi Ramesh,avi.ramesh@corp.in,active,aws-user-1086,active,avi@company.in,active,Fiyaz Sangha,Data,contractor,,2026-02-27T00:10:10.296789,False
+E1087,Triya Gopal,triya.gopal@corp.in,active,aws-user-1087,active,triya@company.in,active,Abha Raghavan,IT,active,,2026-01-03T01:10:10.296835,False
+E1088,Siddharth Sha,siddharth.sha@corp.in,active,aws-user-1088,active,siddharth@company.in,active,Geetika Raghavan,Engineering,active,,2026-01-29T08:10:10.296881,False
+E1089,Oviya Krishnan,oviya.krishnan@corp.in,active,aws-user-1089,active,oviya@company.in,active,Upma Bahl,IT,active,,2026-05-16T09:10:10.296931,True
+E1090,Inaya Kapur,inaya.kapur@corp.in,active,aws-user-1090,active,inaya@company.in,active,Banjeet Balasubramanian,Engineering,contractor,,2026-01-29T13:10:10.296979,False
+E1091,Ryan Bahri,ryan.bahri@corp.in,active,aws-user-1091,active,ryan@company.in,active,William Date,Data,active,,2026-04-26T19:10:10.297028,False
+E1092,Ishwar Kamdar,ishwar.kamdar@corp.in,active,aws-user-1092,active,ishwar@company.in,active,Aahana Pillay,Data,active,,2026-01-08T09:10:10.297075,False
+E1093,Ishwar Gade,ishwar.gade@corp.in,active,aws-user-1093,active,ishwar@company.in,active,Hritik Bal,HR,terminated,2026-04-13 17:10:10,2026-06-06T15:10:10.297123,False
+E1094,Keya Ranganathan,keya.ranganathan@corp.in,active,aws-user-1094,active,keya@company.in,active,Faqid Kibe,IT,active,,2026-04-10T16:10:10.297171,False
+E1095,Charvi Dara,charvi.dara@corp.in,active,aws-user-1095,active,charvi@company.in,active,Idika Walia,Engineering,active,,2026-05-16T21:10:10.297223,False
+E1096,Kamala Biswas,kamala.biswas@corp.in,active,aws-user-1096,active,kamala@company.in,active,Advik Salvi,Data,contractor,,2026-02-26T00:10:10.297270,False
+E1097,Hitesh Sant,hitesh.sant@corp.in,active,aws-user-1097,active,hitesh@company.in,active,Tripti Dua,IT,active,,2026-06-17T14:10:10.297317,False
+E1098,Patrick Vig,patrick.vig@corp.in,active,aws-user-1098,active,patrick@company.in,active,Veda Shroff,Engineering,active,,2025-12-25T13:10:10.297363,False
+E1099,Amrita Naidu,amrita.naidu@corp.in,active,aws-user-1099,active,amrita@company.in,active,Gabriel Mallick,HR,active,,2026-03-16T23:10:10.297413,True
+E1100,Yagnesh Shetty,yagnesh.shetty@corp.in,active,aws-user-1100,active,yagnesh@company.in,active,Gayathri Balakrishnan,HR,contractor,,2026-05-18T16:10:10.297462,True
+E1101,Ekta Gopal,ekta.gopal@corp.in,active,aws-user-1101,active,ekta@company.in,active,Simon Pant,Data,active,,2026-06-09T06:10:10.297510,False
+E1102,Harini Mammen,harini.mammen@corp.in,active,aws-user-1102,active,harini@company.in,active,Advaith Varughese,Finance,active,,2025-12-31T14:10:10.297559,False
+E1103,Frederick Khurana,frederick.khurana@corp.in,active,aws-user-1103,active,frederick@company.in,active,Vrinda Khosla,Data,contractor,,2026-03-06T22:10:10.297606,False
+E1104,Vritti Sem,vritti.sem@corp.in,active,aws-user-1104,active,vritti@company.in,active,Girik Menon,IT,active,,2026-04-20T12:10:10.297653,False
+E1105,Nidhi Kohli,nidhi.kohli@corp.in,active,aws-user-1105,active,nidhi@company.in,active,Jyoti Solanki,Finance,terminated,2026-04-28 17:10:10,2026-06-13T12:10:10.297701,False
+E1106,Pavani Narayanan,pavani.narayanan@corp.in,active,aws-user-1106,active,pavani@company.in,active,Sudiksha Madan,IT,active,,2026-03-05T20:10:10.297747,False
+E1107,Zayan Kashyap,zayan.kashyap@corp.in,active,aws-user-1107,active,zayan@company.in,active,Reyansh Mutti,IT,active,,2026-04-12T12:10:10.297794,False
+E1108,Qasim Handa,qasim.handa@corp.in,active,aws-user-1108,active,qasim@company.in,active,Veda Malhotra,IT,active,,2026-06-10T02:10:10.297842,True
+E1109,Harish Hari,harish.hari@corp.in,active,aws-user-1109,active,harish@company.in,active,Utkarsh Patel,Finance,contractor,,2026-02-22T06:10:10.297894,False
+E1110,Chasmum Atwal,chasmum.atwal@corp.in,active,aws-user-1110,active,chasmum@company.in,active,Anusha Bath,Data,active,,2026-04-22T10:10:10.297940,False
+E1111,Brinda Date,brinda.date@corp.in,active,aws-user-1111,active,brinda@company.in,active,Harshil Arora,Engineering,active,,2026-03-09T07:10:10.297987,False
+E1112,Upasna Srinivas,upasna.srinivas@corp.in,active,aws-user-1112,active,upasna@company.in,active,Harini Gour,Data,active,,2026-04-09T06:10:10.298032,False
+E1113,Zayyan Sridhar,zayyan.sridhar@corp.in,active,aws-user-1113,active,zayyan@company.in,active,Dhruv Rattan,IT,active,,2025-12-28T00:10:10.298079,False
+E1114,Ethan Bera,ethan.bera@corp.in,active,aws-user-1114,active,ethan@company.in,active,Manthan Modi,Data,active,,2026-05-21T09:10:10.298127,False
+E1115,Yuvraj Dani,yuvraj.dani@corp.in,active,aws-user-1115,active,yuvraj@company.in,active,Upkaar Virk,Finance,active,,2026-04-13T16:10:10.298176,False
+E1116,Shravya Savant,shravya.savant@corp.in,active,aws-user-1116,active,shravya@company.in,active,Pushti Mody,Engineering,active,,2026-03-22T18:10:10.298223,False
+E1117,Hardik Johal,hardik.johal@corp.in,active,aws-user-1117,active,hardik@company.in,active,Aishani Bumb,Data,active,,2026-02-09T14:10:10.298271,False
+E1118,Wriddhish Ghose,wriddhish.ghose@corp.in,active,aws-user-1118,active,wriddhish@company.in,active,Naksh Agate,Security,active,,2026-05-02T09:10:10.298319,False
+E1119,Shravya Singhal,shravya.singhal@corp.in,active,aws-user-1119,active,shravya@company.in,active,Bachittar Kata,Engineering,active,,2026-06-19T01:10:10.298368,False
+E1120,Barkha Setty,barkha.setty@corp.in,active,aws-user-1120,active,barkha@company.in,active,Vivaan Lalla,HR,active,,2025-12-30T11:10:10.298416,False
+E1121,Pavani Contractor,pavani.contractor@corp.in,active,aws-user-1121,active,pavani@company.in,active,Manthan Lata,Data,active,,2025-12-31T07:10:10.298465,False
+E1122,Ekbal Bhasin,ekbal.bhasin@corp.in,active,aws-user-1122,active,ekbal@company.in,active,Damyanti Mani,HR,terminated,2026-05-21 17:10:10,2026-05-18T18:10:10.298515,False
+E1123,Jeet Sidhu,jeet.sidhu@corp.in,active,aws-user-1123,active,jeet@company.in,active,Neha Magar,Data,active,,2025-12-31T04:10:10.298562,False
+E1124,Raksha Buch,raksha.buch@corp.in,active,aws-user-1124,active,raksha@company.in,active,Rachana Naidu,Data,contractor,,2026-04-05T00:10:10.298609,False
+E1125,Atharv Chand,atharv.chand@corp.in,active,aws-user-1125,active,atharv@company.in,active,Ansh Luthra,Finance,active,,2025-12-31T05:10:10.298657,False
+E1126,Parth Singhal,parth.singhal@corp.in,active,aws-user-1126,active,parth@company.in,active,Arunima Golla,IT,active,,2026-05-05T22:10:10.298703,False
+E1127,Vyanjana Chand,vyanjana.chand@corp.in,active,aws-user-1127,active,vyanjana@company.in,active,Ijaya Rege,HR,contractor,,2026-01-30T17:10:10.298753,False
+E1128,Ekani Cheema,ekani.cheema@corp.in,active,aws-user-1128,active,ekani@company.in,active,Forum Sabharwal,Data,active,,2026-02-28T23:10:10.298799,False
+E1129,Bhavya Rattan,bhavya.rattan@corp.in,active,aws-user-1129,active,bhavya@company.in,active,Suhani Chakrabarti,HR,active,,2026-02-20T03:10:10.298850,False
+E1130,Zayyan Naik,zayyan.naik@corp.in,active,aws-user-1130,active,zayyan@company.in,active,Netra Varkey,Security,active,,2026-02-09T02:10:10.298897,False
+E1131,Turvi Sachdev,turvi.sachdev@corp.in,active,aws-user-1131,active,turvi@company.in,active,Raghav Vasa,IT,active,,2026-05-29T08:10:10.298944,False
+E1132,Wishi Sathe,wishi.sathe@corp.in,active,aws-user-1132,active,wishi@company.in,active,Samar Loke,HR,active,,2026-01-12T07:10:10.298990,False
+E1133,Bhavna Sarma,bhavna.sarma@corp.in,active,aws-user-1133,active,bhavna@company.in,active,Jairaj Balakrishnan,Engineering,active,,2026-04-19T20:10:10.299036,False
+E1134,Nathan Mukhopadhyay,nathan.mukhopadhyay@corp.in,active,aws-user-1134,active,nathan@company.in,active,Nikita Chander,Data,active,,2026-04-30T13:10:10.299083,False
+E1135,Ishaan Shenoy,ishaan.shenoy@corp.in,active,aws-user-1135,active,ishaan@company.in,active,Mitesh Tara,Engineering,active,,2026-02-17T22:10:10.299129,True
+E1136,Yashodhara Mahajan,yashodhara.mahajan@corp.in,active,aws-user-1136,active,yashodhara@company.in,active,Vasudha Sodhi,Engineering,contractor,,2026-01-08T23:10:10.299176,False
+E1137,Tanmayi Dhillon,tanmayi.dhillon@corp.in,active,aws-user-1137,active,tanmayi@company.in,active,Rayaan Trivedi,Finance,active,,2026-03-13T02:10:10.299226,False
+E1138,Ekaraj Majumdar,ekaraj.majumdar@corp.in,active,aws-user-1138,active,ekaraj@company.in,active,Harini Tripathi,Security,active,,2026-01-02T19:10:10.299273,False
+E1139,Aarnav Mandal,aarnav.mandal@corp.in,active,aws-user-1139,active,aarnav@company.in,active,Vrishti Dixit,Engineering,active,,2026-05-23T04:10:10.299322,False
+E1140,Veda Pai,veda.pai@corp.in,active,aws-user-1140,active,veda@company.in,active,Krishna Shah,Finance,active,,2025-12-23T01:10:10.299369,False
+E1141,Ranbir Khare,ranbir.khare@corp.in,active,aws-user-1141,active,ranbir@company.in,active,Vivaan Roy,Security,active,,2026-04-17T14:10:10.299417,True
+E1142,Eesha Solanki,eesha.solanki@corp.in,active,aws-user-1142,active,eesha@company.in,active,Libni Doshi,Security,active,,2026-02-20T20:10:10.299467,True
+E1143,Balhaar Date,balhaar.date@corp.in,active,aws-user-1143,active,balhaar@company.in,active,Harish Sarraf,HR,active,,2026-01-18T07:10:10.299520,False
+E1144,Tanmayi Aurora,tanmayi.aurora@corp.in,active,aws-user-1144,active,tanmayi@company.in,active,Nimrat Dubey,Security,active,,2026-02-10T04:10:10.299569,False
+E1145,Upasna Lanka,upasna.lanka@corp.in,active,aws-user-1145,active,upasna@company.in,active,Mitali Buch,HR,terminated,2026-04-24 17:10:10,2026-05-09T18:10:10.299616,False
+E1146,Lajita Nadig,lajita.nadig@corp.in,active,aws-user-1146,active,lajita@company.in,active,Balendra Biswas,Security,terminated,2026-05-02 17:10:10,2026-04-16T21:10:10.299667,False
+E1147,Bhavna Karan,bhavna.karan@corp.in,active,aws-user-1147,active,bhavna@company.in,active,Radha Chaudhari,Data,active,,2026-02-06T02:10:10.299714,False
+E1148,Sachi Ganesan,sachi.ganesan@corp.in,active,aws-user-1148,active,sachi@company.in,active,Ayush Batra,IT,active,,2026-02-27T15:10:10.299760,False
+E1149,Daksh Memon,daksh.memon@corp.in,active,aws-user-1149,active,daksh@company.in,active,Kavya Sankar,IT,active,,2026-04-11T07:10:10.299809,False
+E1150,Yash Wali,yash.wali@corp.in,active,aws-user-1150,active,yash@company.in,active,Pranit Garde,Data,active,,2026-05-30T13:10:10.299855,False
+E1151,Farhan Raja,farhan.raja@corp.in,active,aws-user-1151,active,farhan@company.in,active,Widisha Dhar,Finance,active,,2025-12-24T13:10:10.299902,False
+E1152,Triya Kumar,triya.kumar@corp.in,active,aws-user-1152,active,triya@company.in,active,Aadhya Andra,IT,active,,2026-03-05T04:10:10.299948,False
+E1153,Bhavna Dugar,bhavna.dugar@corp.in,active,aws-user-1153,active,bhavna@company.in,active,Riya Pai,Data,terminated,2026-04-30 17:10:10,2026-03-05T16:10:10.299994,False
+E1154,Panini Krishna,panini.krishna@corp.in,active,aws-user-1154,active,panini@company.in,active,Chasmum Issac,Finance,active,,2026-03-11T23:10:10.300040,False
+E1155,Vasudha Chhabra,vasudha.chhabra@corp.in,active,aws-user-1155,active,vasudha@company.in,active,Lakshmi Parmer,IT,active,,2026-01-23T05:10:10.300091,True
+E1156,Chakrika Bains,chakrika.bains@corp.in,active,aws-user-1156,active,chakrika@company.in,active,Anvi Anand,Security,active,,2026-03-21T08:10:10.300139,True
+E1157,Watika Mangat,watika.mangat@corp.in,active,aws-user-1157,active,watika@company.in,active,Indira Kanda,Security,active,,2026-03-04T00:10:10.300188,False
+E1158,Zashil Devan,zashil.devan@corp.in,active,aws-user-1158,active,zashil@company.in,active,Balveer More,IT,active,,2026-01-16T10:10:10.300236,False
+E1159,Bahadurjit Patla,bahadurjit.patla@corp.in,active,aws-user-1159,active,bahadurjit@company.in,active,Gautam Merchant,Security,active,,2026-02-28T02:10:10.300285,False
+E1160,Ojasvi Gill,ojasvi.gill@corp.in,active,aws-user-1160,active,ojasvi@company.in,active,Kevin Zacharia,Engineering,terminated,2026-03-30 17:10:10,2025-12-29T20:10:10.300332,False
+E1161,Yachana Mahajan,yachana.mahajan@corp.in,active,aws-user-1161,active,yachana@company.in,active,Aarini Subramaniam,Security,contractor,,2026-02-20T13:10:10.300380,False
+E1162,Hamsini Contractor,hamsini.contractor@corp.in,active,aws-user-1162,active,hamsini@company.in,active,Faqid Dhaliwal,HR,active,,2026-03-10T23:10:10.300427,False
+E1163,Mekhala Pau,mekhala.pau@corp.in,active,aws-user-1163,active,mekhala@company.in,active,Megha Atwal,HR,active,,2026-05-28T21:10:10.300495,False
+E1164,Jatin Sha,jatin.sha@corp.in,active,aws-user-1164,active,jatin@company.in,active,Adweta Raj,Security,active,,2026-02-21T12:10:10.300551,True
+E1165,Hritik Kaur,hritik.kaur@corp.in,active,aws-user-1165,active,hritik@company.in,active,Aryan Narang,Engineering,active,,2026-03-28T11:10:10.300600,False
+E1166,Dev Shetty,dev.shetty@corp.in,active,aws-user-1166,active,dev@company.in,active,Nilima Dada,Security,active,,2026-03-14T09:10:10.300652,False
+E1167,Chakradev Barad,chakradev.barad@corp.in,active,aws-user-1167,active,chakradev@company.in,active,Waida D’Alia,Security,active,,2026-05-30T02:10:10.300701,False
+E1168,Wahab Yogi,wahab.yogi@corp.in,active,aws-user-1168,active,wahab@company.in,active,Lipika Setty,Engineering,terminated,2026-03-26 17:10:10,2026-06-06T06:10:10.300748,False
+E1169,Oni Dubey,oni.dubey@corp.in,active,aws-user-1169,active,oni@company.in,active,Hardik Suri,Finance,active,,2026-01-04T16:10:10.300799,False
+E1170,Ati Bali,ati.bali@corp.in,active,aws-user-1170,active,ati@company.in,active,Teerth Sawhney,Engineering,active,,2026-04-29T17:10:10.300847,False
+E1171,Warinder Patil,warinder.patil@corp.in,active,aws-user-1171,active,warinder@company.in,active,Jhalak Parmer,HR,active,,2026-05-18T02:10:10.300894,False
+E1172,Mitali Majumdar,mitali.majumdar@corp.in,active,aws-user-1172,active,mitali@company.in,active,Jason Sha,IT,active,,2026-04-25T03:10:10.300941,True
+E1173,Simon Bail,simon.bail@corp.in,active,aws-user-1173,active,simon@company.in,active,Gauri Kohli,IT,active,,2026-03-17T12:10:10.300990,False
+E1174,Samesh Biswas,samesh.biswas@corp.in,active,aws-user-1174,active,samesh@company.in,active,Tarak Kaul,HR,contractor,,2026-05-21T12:10:10.301038,False
+E1175,Manbir Agate,manbir.agate@corp.in,active,aws-user-1175,active,manbir@company.in,active,Maanav De,Data,active,,2026-06-13T08:10:10.301091,True
+E1176,Owen Choudhary,owen.choudhary@corp.in,active,aws-user-1176,active,owen@company.in,active,Karan Aurora,HR,active,,2026-03-15T05:10:10.301139,False
+E1177,Wazir Naik,wazir.naik@corp.in,active,aws-user-1177,active,wazir@company.in,active,Owen Lanka,IT,active,,2026-01-18T19:10:10.301221,False
+E1178,Jonathan Sama,jonathan.sama@corp.in,active,aws-user-1178,active,jonathan@company.in,active,Devansh Soni,IT,active,,2025-12-23T08:10:10.301299,False
+E1179,Janaki Varghese,janaki.varghese@corp.in,active,aws-user-1179,active,janaki@company.in,active,Siya Thakur,IT,active,,2026-05-19T23:10:10.301353,False
+E1180,Caleb Verma,caleb.verma@corp.in,active,aws-user-1180,active,caleb@company.in,active,Tara Balasubramanian,Engineering,active,,2026-03-01T20:10:10.301402,False
+E1181,Varenya Ratti,varenya.ratti@corp.in,active,aws-user-1181,active,varenya@company.in,active,Hritik Swaminathan,Data,terminated,2026-05-31 17:10:10,2026-01-05T07:10:10.301449,True
+E1182,Ethan Buch,ethan.buch@corp.in,active,aws-user-1182,active,ethan@company.in,active,Manbir Bhatti,Engineering,active,,2026-02-14T14:10:10.301496,False
+E1183,Anvi Nair,anvi.nair@corp.in,active,aws-user-1183,active,anvi@company.in,active,Chaitaly Setty,Security,active,,2026-01-08T03:10:10.301549,False
+E1184,Hardik Contractor,hardik.contractor@corp.in,active,aws-user-1184,active,hardik@company.in,active,Qushi Seth,IT,terminated,2026-06-04 17:10:10,2026-05-04T18:10:10.301598,False
+E1185,Odika Nori,odika.nori@corp.in,active,aws-user-1185,active,odika@company.in,active,Mohini Sagar,HR,active,,2026-04-10T22:10:10.301648,False
+E1186,Dhriti Sane,dhriti.sane@corp.in,active,aws-user-1186,active,dhriti@company.in,active,Aadhya Prasad,HR,active,,2026-02-20T04:10:10.301697,False
+E1187,Urvi Bhavsar,urvi.bhavsar@corp.in,active,aws-user-1187,active,urvi@company.in,active,Frederick Chander,IT,active,,2026-03-29T10:10:10.301744,False
+E1188,Gopal Pradhan,gopal.pradhan@corp.in,active,aws-user-1188,active,gopal@company.in,active,Darpan Narayan,Engineering,active,,2026-02-24T10:10:10.301792,False
+E1189,Nirja Pandya,nirja.pandya@corp.in,active,aws-user-1189,active,nirja@company.in,active,Charan Mani,Security,active,,2025-12-30T05:10:10.301843,False
+E1190,Indira Chawla,indira.chawla@corp.in,active,aws-user-1190,active,indira@company.in,active,Mohammed Subramaniam,Data,active,,2026-03-28T12:10:10.301890,True
+E1191,Hritik Palla,hritik.palla@corp.in,active,aws-user-1191,active,hritik@company.in,active,Ishwar Mallick,Security,active,,2026-04-14T07:10:10.301937,False
+E1192,Pushti Bal,pushti.bal@corp.in,active,aws-user-1192,active,pushti@company.in,active,Ayush Gole,Data,terminated,2026-05-22 17:10:10,2025-12-22T09:10:10.301988,False
+E1193,Dayamai Nori,dayamai.nori@corp.in,active,aws-user-1193,active,dayamai@company.in,active,Abeer Golla,HR,active,,2026-05-02T15:10:10.302035,True
+E1194,Nandini Boase,nandini.boase@corp.in,active,aws-user-1194,active,nandini@company.in,active,Azaan Chand,Finance,terminated,2026-05-21 17:10:10,2026-02-14T00:10:10.302083,False
+E1195,Krisha Saini,krisha.saini@corp.in,active,aws-user-1195,active,krisha@company.in,active,Harita Dugar,Finance,active,,2026-01-04T19:10:10.302129,False
+E1196,Devika Nair,devika.nair@corp.in,active,aws-user-1196,active,devika@company.in,active,Charles Dugal,Security,active,,2026-06-15T15:10:10.302176,False
+E1197,Chandran Bumb,chandran.bumb@corp.in,active,aws-user-1197,active,chandran@company.in,active,Saanvi Samra,Data,contractor,,2025-12-24T10:10:10.302222,False
+E1198,Riya Sachdeva,riya.sachdeva@corp.in,active,aws-user-1198,active,riya@company.in,active,Tanveer Vala,Data,active,,2026-03-17T02:10:10.302268,False
+E1199,Hemani Sani,hemani.sani@corp.in,active,aws-user-1199,active,hemani@company.in,active,Bhanumati Sur,HR,active,,2026-03-02T18:10:10.302317,False
+E1200,Chakradev Kannan,chakradev.kannan@corp.in,active,aws-user-1200,active,chakradev@company.in,active,Christopher Amble,HR,active,,2025-12-22T03:10:10.302364,False
+E1201,Charvi Kakar,charvi.kakar@corp.in,active,aws-user-1201,active,charvi@company.in,active,Aadhya Mann,Data,terminated,2026-03-23 17:10:10,2026-04-21T14:10:10.302414,False
+E1202,Jagdish Amble,jagdish.amble@corp.in,active,aws-user-1202,active,jagdish@company.in,active,Qushi Gill,IT,active,,2026-05-19T18:10:10.302461,False
+E1203,Lajita Walia,lajita.walia@corp.in,active,aws-user-1203,active,lajita@company.in,active,Xiti Pandya,HR,active,,2025-12-25T12:10:10.302508,False
+E1204,Mekhala Basak,mekhala.basak@corp.in,active,aws-user-1204,active,mekhala@company.in,active,Anirudh Sharaf,Finance,terminated,2026-06-04 17:10:10,2026-02-16T09:10:10.302555,False
+E1205,Dhriti Sanghvi,dhriti.sanghvi@corp.in,active,aws-user-1205,active,dhriti@company.in,active,Omisha Mann,IT,active,,2026-02-04T22:10:10.302601,False
+E1206,Nidhi Bail,nidhi.bail@corp.in,active,aws-user-1206,active,nidhi@company.in,active,Onveer Sharma,Data,contractor,,2026-05-01T08:10:10.302648,False
+E1207,Gaurang Sarkar,gaurang.sarkar@corp.in,active,aws-user-1207,active,gaurang@company.in,active,Yagnesh Sarin,Finance,active,,2026-04-03T17:10:10.302696,False
+E1208,Farhan Randhawa,farhan.randhawa@corp.in,active,aws-user-1208,active,farhan@company.in,active,Harinakshi Kant,IT,active,,2026-04-10T16:10:10.302744,False
+E1209,Om Bose,om.bose@corp.in,active,aws-user-1209,active,om@company.in,active,Yashvi Hari,Engineering,contractor,,2025-12-23T13:10:10.302793,False
+E1210,Indali Divan,indali.divan@corp.in,active,aws-user-1210,active,indali@company.in,active,Harshil Dhingra,IT,active,,2026-02-14T14:10:10.302841,False
+E1211,Rudra Ghose,rudra.ghose@corp.in,active,aws-user-1211,active,rudra@company.in,active,Faqid Goel,Engineering,active,,2026-02-19T02:10:10.302890,False
+E1212,Ucchal Sen,ucchal.sen@corp.in,active,aws-user-1212,active,ucchal@company.in,active,Diya Dora,Security,active,,2026-06-06T09:10:10.302939,False
+E1213,Ekansh Singh,ekansh.singh@corp.in,active,aws-user-1213,active,ekansh@company.in,active,Chavvi Maharaj,Security,active,,2026-06-03T05:10:10.302986,True
+E1214,Indira Tripathi,indira.tripathi@corp.in,active,aws-user-1214,active,indira@company.in,active,Dayita Shenoy,Security,active,,2026-01-08T20:10:10.303032,True
+E1215,Baljiwan Bhandari,baljiwan.bhandari@corp.in,active,aws-user-1215,active,baljiwan@company.in,active,Bhavini Bose,Engineering,active,,2026-01-26T08:10:10.303078,False
+E1216,Yashica Rajagopalan,yashica.rajagopalan@corp.in,active,aws-user-1216,active,yashica@company.in,active,Benjamin Sengupta,Engineering,active,,2026-05-20T00:10:10.303127,False
+E1217,Ekanta Soni,ekanta.soni@corp.in,active,aws-user-1217,active,ekanta@company.in,active,David Seshadri,Security,active,,2026-01-12T10:10:10.303175,False
+E1218,Hemal Chad,hemal.chad@corp.in,active,aws-user-1218,active,hemal@company.in,active,Balveer Kota,HR,active,,2026-02-26T08:10:10.303259,False
+E1219,Reva Viswanathan,reva.viswanathan@corp.in,active,aws-user-1219,active,reva@company.in,active,Januja Pradhan,HR,active,,2026-04-01T23:10:10.303308,False
+E1220,Lila Rege,lila.rege@corp.in,active,aws-user-1220,active,lila@company.in,active,Charles Natt,HR,active,,2026-05-25T11:10:10.303355,True
+E1221,Forum Chandra,forum.chandra@corp.in,active,aws-user-1221,active,forum@company.in,active,Bhanumati Krishnan,IT,contractor,,2026-01-01T15:10:10.303404,False
+E1222,Gauri Bumb,gauri.bumb@corp.in,active,aws-user-1222,active,gauri@company.in,active,Inaya Mukherjee,Finance,terminated,2026-05-31 17:10:10,2026-01-29T15:10:10.303451,False
+E1223,Kai Chad,kai.chad@corp.in,active,aws-user-1223,active,kai@company.in,active,Krisha Narasimhan,Finance,active,,2026-02-23T19:10:10.303499,True
+E1224,Girik Sampath,girik.sampath@corp.in,active,aws-user-1224,active,girik@company.in,active,Andrew Patil,HR,active,,2026-06-11T10:10:10.303546,False
+E1225,Pranit Kala,pranit.kala@corp.in,active,aws-user-1225,active,pranit@company.in,active,Vedika Handa,Data,active,,2025-12-22T03:10:10.303593,False
+E1226,Laksh Dubey,laksh.dubey@corp.in,active,aws-user-1226,active,laksh@company.in,active,Chakrika Chaudhuri,Engineering,active,,2026-04-12T21:10:10.303639,False
+E1227,Gayathri Deep,gayathri.deep@corp.in,active,aws-user-1227,active,gayathri@company.in,active,Mitesh Gaba,HR,terminated,2026-05-07 17:10:10,2026-04-30T04:10:10.303689,False
+E1228,Noah Sarma,noah.sarma@corp.in,active,aws-user-1228,active,noah@company.in,active,Nirja Patla,Engineering,active,,2026-01-05T13:10:10.303737,False
+E1229,Sachi Mane,sachi.mane@corp.in,active,aws-user-1229,active,sachi@company.in,active,Vivaan Walla,Data,active,,2026-06-01T16:10:10.303786,False
+E1230,Dayamai Singh,dayamai.singh@corp.in,active,aws-user-1230,active,dayamai@company.in,active,Jhalak Sastry,Finance,active,,2026-01-17T18:10:10.303835,False
+E1231,Baghyawati Raja,baghyawati.raja@corp.in,active,aws-user-1231,active,baghyawati@company.in,active,Neel Iyengar,HR,active,,2026-02-27T14:10:10.303883,False
+E1232,Zashil Ben,zashil.ben@corp.in,active,aws-user-1232,active,zashil@company.in,active,Kamya Chauhan,Security,active,,2025-12-22T05:10:10.303929,False
+E1233,Bhavani Chacko,bhavani.chacko@corp.in,active,aws-user-1233,active,bhavani@company.in,active,Anjali Sengupta,Data,active,,2026-02-13T03:10:10.303977,False
+E1234,Rajeshri Chand,rajeshri.chand@corp.in,active,aws-user-1234,active,rajeshri@company.in,active,Shravya Palla,Engineering,active,,2026-02-28T18:10:10.304025,False
+E1235,Oeshi Bera,oeshi.bera@corp.in,active,aws-user-1235,active,oeshi@company.in,active,Yadavi Prakash,Data,active,,2026-06-13T15:10:10.304071,False
+E1236,Libni Bumb,libni.bumb@corp.in,active,aws-user-1236,active,libni@company.in,active,Udarsh Bala,Finance,contractor,,2026-01-22T23:10:10.304119,False
+E1237,Hardik Nayak,hardik.nayak@corp.in,active,aws-user-1237,active,hardik@company.in,active,Laksh Barad,Engineering,active,,2025-12-29T09:10:10.304166,False
+E1238,Urmi Dewan,urmi.dewan@corp.in,active,aws-user-1238,active,urmi@company.in,active,Saumya Ahluwalia,HR,contractor,,2026-05-06T02:10:10.304214,True
+E1239,Anirudh Kunda,anirudh.kunda@corp.in,active,aws-user-1239,active,anirudh@company.in,active,Mason Wable,HR,active,,2026-04-09T12:10:10.304270,False
+E1240,Indrajit Mani,indrajit.mani@corp.in,active,aws-user-1240,active,indrajit@company.in,active,Charvi Dara,HR,active,,2026-02-14T15:10:10.304317,False
+E1241,William Saini,william.saini@corp.in,active,aws-user-1241,active,william@company.in,active,Dev Choudhry,Security,active,,2026-03-26T07:10:10.304366,False
+E1242,Amol Varma,amol.varma@corp.in,active,aws-user-1242,active,amol@company.in,active,Maanas Manne,IT,active,,2026-05-09T07:10:10.304413,True
+E1243,Aarav Pandit,aarav.pandit@corp.in,active,aws-user-1243,active,aarav@company.in,active,Omaja Grover,Security,active,,2026-04-06T20:10:10.304459,False
+E1244,Jalsa Bir,jalsa.bir@corp.in,active,aws-user-1244,active,jalsa@company.in,active,Madhavi Singhal,Security,active,,2026-01-30T16:10:10.304507,False
+E1245,Lila Prakash,lila.prakash@corp.in,active,aws-user-1245,active,lila@company.in,active,Amol Parikh,Security,active,,2026-04-16T07:10:10.304554,True
+E1246,Hemani Khosla,hemani.khosla@corp.in,active,aws-user-1246,active,hemani@company.in,active,Gaurangi Deol,Engineering,active,,2026-03-08T01:10:10.304600,False
+E1247,Indira Nigam,indira.nigam@corp.in,active,aws-user-1247,active,indira@company.in,active,Ucchal Srinivas,Engineering,active,,2026-02-01T03:10:10.304650,False
+E1248,Krishna Bhatnagar,krishna.bhatnagar@corp.in,active,aws-user-1248,active,krishna@company.in,active,Balhaar Memon,Security,active,,2026-02-07T06:10:10.304698,True
+E1249,Caleb Iyengar,caleb.iyengar@corp.in,active,aws-user-1249,active,caleb@company.in,active,Diya Mukherjee,HR,active,,2026-01-10T03:10:10.304747,False
+E1250,Urvashi Kulkarni,urvashi.kulkarni@corp.in,active,aws-user-1250,active,urvashi@company.in,active,Rayaan Mangal,Engineering,active,,2026-01-30T13:10:10.304796,False
+E1251,Champak Narula,champak.narula@corp.in,active,aws-user-1251,active,champak@company.in,active,Jeet Pillai,Data,active,,2025-12-23T02:10:10.304844,False
+E1252,Mugdha Sarraf,mugdha.sarraf@corp.in,active,aws-user-1252,active,mugdha@company.in,active,Harinakshi Grover,Engineering,active,,2026-01-08T22:10:10.304891,True
+E1253,Widisha Pillai,widisha.pillai@corp.in,active,aws-user-1253,active,widisha@company.in,active,Fitan Samra,Finance,active,,2026-04-01T00:10:10.304937,False
+E1254,Qushi Gole,qushi.gole@corp.in,active,aws-user-1254,active,qushi@company.in,active,Ekani Chauhan,Engineering,active,,2026-05-27T10:10:10.304984,False
+E1255,Falak Merchant,falak.merchant@corp.in,active,aws-user-1255,active,falak@company.in,active,Sanaya Sandhu,Engineering,active,,2026-05-19T21:10:10.305030,False
+E1256,Sachi Panchal,sachi.panchal@corp.in,active,aws-user-1256,active,sachi@company.in,active,Brijesh Pandit,Finance,active,,2026-04-06T01:10:10.305077,False
+E1257,Anvi Bhandari,anvi.bhandari@corp.in,active,aws-user-1257,active,anvi@company.in,active,Nidra Patla,IT,active,,2026-02-16T02:10:10.305124,False
+E1258,Azaan Dhar,azaan.dhar@corp.in,active,aws-user-1258,active,azaan@company.in,active,Bakhshi Date,Finance,active,,2026-05-13T05:10:10.305172,False
+E1259,Warinder Peri,warinder.peri@corp.in,active,aws-user-1259,active,warinder@company.in,active,Leela Bali,Finance,terminated,2026-04-15 17:10:10,2026-02-08T18:10:10.305220,False
+E1260,Shivani Prabhakar,shivani.prabhakar@corp.in,active,aws-user-1260,active,shivani@company.in,active,Sachi Bose,Finance,active,,2026-04-10T04:10:10.305270,False
+E1261,Jeevika Rao,jeevika.rao@corp.in,active,aws-user-1261,active,jeevika@company.in,active,Arya Krish,Data,terminated,2026-04-17 17:10:10,2026-02-10T09:10:10.305316,False
+E1262,Atharv Grewal,atharv.grewal@corp.in,active,aws-user-1262,active,atharv@company.in,active,Zarna Ram,Engineering,active,,2026-04-03T23:10:10.305362,False
+E1263,Adweta Lad,adweta.lad@corp.in,active,aws-user-1263,active,adweta@company.in,active,Tanish Mangal,HR,active,,2026-02-14T13:10:10.305409,False
+E1264,Ryan Das,ryan.das@corp.in,active,aws-user-1264,active,ryan@company.in,active,Ethan Seth,Security,active,,2026-03-23T07:10:10.305455,False
+E1265,Sai Chahal,sai.chahal@corp.in,active,aws-user-1265,active,sai@company.in,active,Idika Bhattacharyya,HR,terminated,2026-04-09 17:10:10,2026-03-15T03:10:10.305503,False
+E1266,Charita Dugar,charita.dugar@corp.in,active,aws-user-1266,active,charita@company.in,active,Janaki Trivedi,Data,active,,2025-12-23T10:10:10.305550,False
+E1267,Jairaj Iyer,jairaj.iyer@corp.in,active,aws-user-1267,active,jairaj@company.in,active,Warjas Tak,HR,active,,2026-03-06T16:10:10.305596,False
+E1268,Jalsa Pillay,jalsa.pillay@corp.in,active,aws-user-1268,active,jalsa@company.in,active,Kai Chadha,Data,active,,2026-03-14T05:10:10.305645,False
+E1269,Dayamai Rao,dayamai.rao@corp.in,active,aws-user-1269,active,dayamai@company.in,active,Nirja Rout,IT,contractor,,2026-01-04T13:10:10.305696,False
+E1270,Jeremiah Nadig,jeremiah.nadig@corp.in,active,aws-user-1270,active,jeremiah@company.in,active,Shivani Shukla,Security,contractor,,2026-05-18T01:10:10.305745,False
+E1271,Kabir Gopal,kabir.gopal@corp.in,active,aws-user-1271,active,kabir@company.in,active,Rachita Thakkar,HR,active,,2026-05-25T03:10:10.305793,False
+E1272,Jeet Vasa,jeet.vasa@corp.in,active,aws-user-1272,active,jeet@company.in,active,Daksha Gala,Engineering,active,,2026-02-23T17:10:10.305840,False
+E1273,Ekantika Kar,ekantika.kar@corp.in,active,aws-user-1273,active,ekantika@company.in,active,Zilmil Mander,IT,active,,2026-01-03T13:10:10.305886,True
+E1274,Zashil Hegde,zashil.hegde@corp.in,active,aws-user-1274,active,zashil@company.in,active,Jeremiah Mitter,Engineering,terminated,2026-03-25 17:10:10,2026-04-13T07:10:10.305933,False
+E1275,Yadavi Ganguly,yadavi.ganguly@corp.in,active,aws-user-1275,active,yadavi@company.in,active,Onveer Nazareth,HR,active,,2026-01-04T15:10:10.305981,False
+E1276,Ayush Bumb,ayush.bumb@corp.in,active,aws-user-1276,active,ayush@company.in,active,Alka Kade,Data,active,,2026-02-03T05:10:10.306029,False
+E1277,Azaan Tank,azaan.tank@corp.in,active,aws-user-1277,active,azaan@company.in,active,Chasmum Subramanian,Data,active,,2026-02-15T00:10:10.306076,False
+E1278,Nidra Mishra,nidra.mishra@corp.in,active,aws-user-1278,active,nidra@company.in,active,Elijah Bhasin,Engineering,active,,2026-04-19T21:10:10.306123,False
+E1279,Ria Sagar,ria.sagar@corp.in,active,aws-user-1279,active,ria@company.in,active,Ucchal Jani,IT,active,,2026-04-21T18:10:10.306177,False
+E1280,Maanas Munshi,maanas.munshi@corp.in,active,aws-user-1280,active,maanas@company.in,active,Hemani Rastogi,Engineering,terminated,2026-04-15 17:10:10,2026-05-24T21:10:10.306224,False
+E1281,Kamala Varma,kamala.varma@corp.in,active,aws-user-1281,active,kamala@company.in,active,Eiravati Khurana,IT,active,,2026-02-26T12:10:10.306271,False
+E1282,Jason Loke,jason.loke@corp.in,active,aws-user-1282,active,jason@company.in,active,Yug Dhaliwal,IT,active,,2026-06-12T16:10:10.306316,False
+E1283,Chandresh Mannan,chandresh.mannan@corp.in,active,aws-user-1283,active,chandresh@company.in,active,Omya Kothari,Data,active,,2026-04-05T06:10:10.306362,False
+E1284,Falak Munshi,falak.munshi@corp.in,active,aws-user-1284,active,falak@company.in,active,Nathaniel Tara,Data,active,,2026-04-18T01:10:10.306414,False
+E1285,Wishi Morar,wishi.morar@corp.in,active,aws-user-1285,active,wishi@company.in,active,Arin Chana,Security,active,,2026-05-04T12:10:10.306460,False
+E1286,Yashasvi Shankar,yashasvi.shankar@corp.in,active,aws-user-1286,active,yashasvi@company.in,active,Tanveer Pandit,Finance,active,,2026-03-13T22:10:10.306507,True
+E1287,Chandresh Manda,chandresh.manda@corp.in,active,aws-user-1287,active,chandresh@company.in,active,Upma Mangal,IT,active,,2026-01-21T13:10:10.306554,False
+E1288,Hritik Sankar,hritik.sankar@corp.in,active,aws-user-1288,active,hritik@company.in,active,Aishani Pau,Finance,active,,2026-04-15T03:10:10.306600,False
+E1289,Jasmit Bath,jasmit.bath@corp.in,active,aws-user-1289,active,jasmit@company.in,active,Charan Hayer,Data,active,,2026-02-20T08:10:10.306649,False
+E1290,Bhavya Borah,bhavya.borah@corp.in,active,aws-user-1290,active,bhavya@company.in,active,Yamini Seshadri,IT,active,,2026-06-01T03:10:10.306710,False
+E1291,Jagat Dave,jagat.dave@corp.in,active,aws-user-1291,active,jagat@company.in,active,Meera Prakash,Data,active,,2026-04-03T21:10:10.306793,False
+E1292,Jasmit Dhawan,jasmit.dhawan@corp.in,active,aws-user-1292,active,jasmit@company.in,active,Yashodhara Ratti,Security,active,,2026-02-23T08:10:10.306863,False
+E1293,Chakradev Barad,chakradev.barad@corp.in,active,aws-user-1293,active,chakradev@company.in,active,Gauri Som,Finance,terminated,2026-04-18 17:10:10,2026-02-16T14:10:10.306932,False
+E1294,Manthan Varma,manthan.varma@corp.in,active,aws-user-1294,active,manthan@company.in,active,Falak Nagar,Finance,active,,2026-03-19T23:10:10.307010,False
+E1295,Maya Mistry,maya.mistry@corp.in,active,aws-user-1295,active,maya@company.in,active,Yashica Upadhyay,Data,terminated,2026-05-07 17:10:10,2026-04-05T17:10:10.307088,False
+E1296,Chandani Soman,chandani.soman@corp.in,active,aws-user-1296,active,chandani@company.in,active,Jyoti Narula,IT,terminated,2026-05-14 17:10:10,2026-06-16T23:10:10.307139,False
+E1297,Omaja Morar,omaja.morar@corp.in,active,aws-user-1297,active,omaja@company.in,active,Urvi Lanka,IT,active,,2026-06-06T22:10:10.307188,False
+E1298,Charan Srinivasan,charan.srinivasan@corp.in,active,aws-user-1298,active,charan@company.in,active,Lajita Divan,IT,active,,2026-04-07T10:10:10.307237,False
+E1299,Azad Choudhary,azad.choudhary@corp.in,active,aws-user-1299,active,azad@company.in,active,Anirudh Sastry,HR,active,,2026-04-23T21:10:10.307285,False
