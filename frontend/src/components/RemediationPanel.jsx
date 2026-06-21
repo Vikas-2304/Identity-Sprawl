@@ -44,11 +44,12 @@ export default function RemediationPanel({ employeeId }) {
     <div className="h-full overflow-auto p-4 space-y-3">
       <div className="border border-bg-line rounded-lg bg-bg-raised p-3">
         <div className="text-[11px] uppercase tracking-wide text-ink-faint font-mono mb-1">Summary</div>
-        <p className="text-sm text-ink leading-relaxed">{data.summary}</p>
+        <p className="text-sm text-ink leading-relaxed"> {data?.summary ?? "No remediation available"}
+</p>
       </div>
 
       <div className="space-y-2">
-        {data.steps.map((step, idx) => (
+        {(data?.steps ?? []).map((step, idx) => (
           <div key={idx} className="border border-bg-line rounded-lg bg-bg-panel p-3">
             <div className="flex items-start gap-2.5">
               <span className="flex-shrink-0 w-5 h-5 rounded-full bg-bg-raised border border-bg-line text-[11px] font-mono flex items-center justify-center text-ink-dim mt-0.5">
