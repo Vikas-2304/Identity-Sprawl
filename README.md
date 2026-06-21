@@ -1,4 +1,4 @@
-# Identity Risk Console — Phase 2 & 3
+# Identity Risk Console
 
 Cross-platform identity risk dashboard. Backend (FastAPI + Pandas + NetworkX)
 serves a deterministic risk-scoring engine; frontend (React + Vite + React Flow)
@@ -8,6 +8,12 @@ This covers **Phase 2 (API & Backend)** and **Phase 3 (Frontend & Dashboard)**
 from the hackathon plan. Phase 1 (data generator / graph builder / risk engine
 your teammates own) is stubbed with realistic mock data so you can build and
 demo independently — see `backend/DATA_CONTRACT.md` for the handoff schema.
+
+## What’s included
+
+- `backend/` — FastAPI service, mock data generator, graph builder, risk engine, and self-check script
+- `frontend/` — React + Vite dashboard with the risk register, identity graph, and remediation panel
+- `backend/DATA_CONTRACT.md` — schema contract for swapping in real Phase-1 CSVs
 
 ## Quick start
 
@@ -29,6 +35,27 @@ npm run dev
 Open http://localhost:5173. The frontend talks to the backend at
 `http://localhost:8000` (configurable via `frontend/.env`).
 
+## Backend setup and checks
+
+```bash
+cd backend
+pip install -r requirements.txt
+python mock_data_generator.py
+python self_eval.py
+uvicorn main:app --reload --port 8000
+```
+
+`python mock_data_generator.py` creates the CSVs in `backend/data/`.
+`python self_eval.py` prints the pass/fail table for the five success criteria.
+
+## Backend endpoints
+
+- `GET /api/risk-register` — sorted identities with risk scores; supports `tier`, `offboarding_gaps_only`, `department`, and `search`
+- `GET /api/user/{id}/graph` — nodes and edges for the privilege graph
+- `GET /api/user/{id}/remediation` — step-by-step remediation instructions
+- `GET /api/stats` — dashboard summary counts
+- `POST /api/refresh` — recompute after replacing CSVs in `backend/data/`
+
 ## What's in the dashboard
 
 1. **Risk Register** (left pane) — sortable table of all identities, risk
@@ -40,6 +67,14 @@ Open http://localhost:5173. The frontend talks to the backend at
    nested-group" reveal from the demo script.
 3. **Remediation playbook** (right pane, tab 2) — concrete, copyable CLI
    commands generated from which risk rules fired for that identity.
+
+## Backend files
+
+- `mock_data_generator.py` — fake data generator with the hackathon-sized CSV set
+- `graph_builder.py` — NetworkX privilege graph and effective privilege resolution
+- `risk_engine.py` — deterministic rule engine used for scoring
+- `main.py` — FastAPI app wiring the endpoints together
+- `self_eval.py` — success-criteria checker against the live data
 
 ## Project layout
 
@@ -84,3 +119,14 @@ Once your teammates' generator/risk-engine is ready:
 3. `POST http://localhost:8000/api/refresh` (or just restart uvicorn).
 
 No frontend or backend code changes needed — the contract is the seam.
+
+## Standalone backend sanity checks
+
+```bash
+cd backend
+python graph_builder.py
+python risk_engine.py
+```
+
+These print the effective privileges for injected service accounts and the top
+riskiest identities without starting the server.
